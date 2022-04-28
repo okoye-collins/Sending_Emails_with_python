@@ -9,8 +9,8 @@ import imghdr
 # EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 
 
-EMAIL_ADDRESS = "collins.kcj@gmail.com"
-EMAIL_PASSWORD = "collinsokoye.kcj"
+EMAIL_ADDRESS = "*******.kcj@gmail.com"
+EMAIL_PASSWORD = "************"
 
 msg = EmailMessage()
 msg['subject'] = 'whats up your BD is 2morow'
@@ -26,6 +26,9 @@ msg.add_alternative("""\
         </body>
     </html>
 """, subtype= 'html')
+
+# if you want to send pictures to an email 
+ 
 # files = [ 'ashia.jpeg', 'ashia1.jpeg']
 # for file in files:
 #     with open(file, 'rb') as f:
