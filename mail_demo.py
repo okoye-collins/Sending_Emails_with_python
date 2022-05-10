@@ -15,7 +15,7 @@ EMAIL_PASSWORD = "************"
 msg = EmailMessage()
 msg['subject'] = 'whats up your BD is 2morow'
 msg['From'] = EMAIL_ADDRESS
-msg['To'] = 'collins.kcj@gmail.com'
+msg['To'] = 'c******.kcj@gmail.com'
 msg.set_content('How about dinner at 6pm this Saturday?')
 
 msg.add_alternative("""\
